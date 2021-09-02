@@ -47,6 +47,8 @@ if(process.env.VUE_APP_ENV === 'production'){
 //     }
 // }
 // console.log(proxyTable);
+// let path = require('path')
+// const NODE_ENV = process.env.NODE_ENV
 module.exports = {
     // 配置跨域代理
     devServer: {
@@ -72,5 +74,28 @@ module.exports = {
           }
       },
     },
-    publicPath: './'
+    publicPath: './',
+    // path:path.resolve(__dirname,'./dist'),
+    // entry: NODE_ENV == 'development' ? './src/main.js' : './index.js',
+    // output:{
+    //   path:path.resolve(__dirname,'./dist'),
+    //   publicPath:'/dist/',
+    //   filename:'yyl-npm-practice.js',
+    //   library:'yyl-npm-practice',//使用require时的模块名
+    //   libraryTarget:'umd', //指定输出格式
+    //   umNamedDefine:true //  umd 构建中的模块命名  否则使用匿名 define
+    // },
+    configureWebpack: (config) => {
+      if (process.env.VUE_APP_ENV === 'production') {
+        config.entry = './index.js'
+      } else {
+        config.entry = './src/main.js'
+      }
+      // config.output = {
+      //   filename:'yyl-npm-practice.js',
+      //   library:'yyl-npm-practice',//使用require时的模块名
+      //   libraryTarget:'umd', //指定输出格式
+      //   umNamedDefine:true //  umd 构建中的模块命名  否则使用匿名 define
+      // }
+    }
 }

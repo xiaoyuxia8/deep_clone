@@ -33,7 +33,6 @@
     watch: {},
 
     methods: {
-   
     },
   };
 </script>
