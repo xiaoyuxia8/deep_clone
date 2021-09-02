@@ -1,0 +1,19 @@
+{
+  "name": "deep_clone",
+  "version": "1.0.0",
+  "description": "deep clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoyuxia8/deep_clone.git"
+  },
+  "author": "xyx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoyuxia8/deep_clone/issues"
+  },
+  "homepage": "https://github.com/xiaoyuxia8/deep_clone#readme"
+}
