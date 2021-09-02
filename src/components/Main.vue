@@ -8,9 +8,8 @@
 -->
 <template>
   <div class="element-contain">
-        <el-tooltip class="item" effect="dark" content="Top Left 提示文字" placement="top-start">
-      <el-button>上左</el-button>
-    </el-tooltip>
+      <el-input v-model="myVal" placeholder="这是一个组件cjk"></el-input>
+      <el-button type="primary" style="margin-top:20px" @click="submit">xyx-cjk</el-button>
   </div>
 </template>
 
@@ -21,6 +20,7 @@
     props: [],
     data() {
       return {
+        myVal:''
       }
     },
 
@@ -33,6 +33,13 @@
     watch: {},
 
     methods: {
+      submit(){
+        if(!this.myVal){
+          this.$message.warning('留下点什么吧!')
+        }else{
+          this.$message.success('提交成功!')
+        }
+      }
     },
   };
 </script>
