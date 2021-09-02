@@ -1,0 +1,23 @@
+{
+  "gatewayUrl": "https://cjk-gateway.g1.cunjk.com",
+  "gateUrl": "https://cjk-gateway.g1.cunjk.com/sys",
+  "jeesite": "https://cloud-customer-manage.g1.cunjk.com",
+  "ubill2": "https://cloud-platform-ui-upc-dtp.g1.cunjk.com",
+  "uglt": "https://cloud-platform-ui-glt.g1.cunjk.com",
+  "report": "https://cloud-platform-ui-ureport.g1.cunjk.com",
+  "system": "https://mcjksys.g1.cunjk.com",
+  "ucloud": "https://cjk-sys-ui.g1.cunjk.com",
+  "upc": "https://cloud-platform-ui-upc-dtp.g1.cunjk.com",
+  "ubill": "https://cloud-platform-ui-upc.g1.cunjk.com",
+  "mcjksys": "https://mcjksys.g1.cunjk.com",     
+  "mcjksys1": "https://mcjksys.g2.cunjk.com", 
+  "ui-crm": "https://cjk-crm-ui.g1.cunjk.com",
+  "ui-crm-report": "https://cloud-ui-crm-report.g1.cunjk.com",
+  "sufferer2Url": "https://cloud-platform-sufferer-dtp.g1.cunjk.com/interface",
+  "ucms": "https://tucms.cunjk.com",
+  "ui-yqcrm": "https://cjk-yqcrm-ui.g1.cunjk.com",
+  "crmreport": "https://cjk-crm-service.g1.cunjk.com",
+  "activity": "https://cjk-glt-activity-ui.g1.cunjk.com",
+  "crmreport2": "https://cjk-crm-report.g1.cunjk.com",
+  "uncds": "https://cjk-ncds-ui.g1.cunjk.com"
+}

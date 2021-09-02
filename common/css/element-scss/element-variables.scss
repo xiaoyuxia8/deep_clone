@@ -1,0 +1,107 @@
+/* 全局主题色变量 */
+$global-theme-color:#409eff;
+$global-select-item-hover-bg-color:#ebf5ff;
+
+/* 改变主题色变量 */
+$--color-primary: $global-theme-color;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+
+/* 改变select下拉框hover和选中变量*/
+$--select-option-hover-background:$global-select-item-hover-bg-color;
+
+/* 改变一级按钮按压背景和边框色*/
+.el-button--primary:hover{
+  background: #7bbaff!important;
+  border-color: #7bbaff!important;
+}
+.el-button--primary.is-active, .el-button--primary:active{
+  background: #297acf!important;
+  border-color: #297acf!important;
+}
+.el-button--primary.is-disabled{
+  background: #9FCEFF!important;
+  border-color: #9FCEFF!important;
+}
+/* 改变二级按钮按压背景和边框色*/
+.el-button--primary.is-plain {
+  background-color: #fff!important;
+  border-color: $global-theme-color!important;
+  color:$global-theme-color!important;
+}
+.el-button--primary.is-plain:hover {
+  background-color:#ECF6FF!important;
+  border-color: $global-theme-color!important;
+  color:$global-theme-color!important;
+}
+.el-button--primary.is-plain:active {
+  background-color:#E9F1FA!important;
+  border-color: #297acf!important;
+  color:#297acf!important;
+}
+.el-button--primary.is-plain.is-disabled {
+  background-color:#f4f8fc!important;
+  border-color: #a4c6ea!important;
+  color:#a4c6ea!important;
+}
+
+/*改变message提示样式*/
+/* 改变message提示色变量 */
+$--message-success-font-color:$global-theme-color;
+$--color-success-lighter:#fff;
+$--color-success-light:$global-theme-color;
+.el-message {
+  // left:20px!important;
+  // transform: translateX(0)!important;
+  padding: 7px 15px 7px 20px!important;
+  border:none!important;
+  font-family: 'PingFang SC'!important;
+  font-weight: 500!important;
+}
+.el-message--success {
+  background: #ECF5FF!important
+}
+.el-message--warning {
+  background: #F8EDE4!important;
+  color: #FF9933!important;
+}
+.el-message--info {
+  background: #F5F5F5!important;
+  color: #999999!important
+}
+.el-message--error{
+  background: #F6E7E8!important;
+  color: #EA5858;
+}
+
+/* 改变table表头颜色 */
+thead tr th{
+  background-color: #F5F5F5!important;
+  color: #666!important;
+  border-top:1px solid #dcdfe6!important;
+  border-bottom: 1px solid #dcdfe6!important;
+}
+/* 改变table表头高度 */
+.el-table th {
+  padding: 17px 0 !important;
+}
+/* 改变table body颜色 */
+thead tr td{
+  color: #333!important;
+  border-top:1px solid #dcdfe6!important;
+  border-bottom: 1px solid #dcdfe6!important;
+}
+/* 改变table body高度 */
+.el-table td {
+  padding: 13px 0 !important;
+}
+
+/* 气泡弹出框 */
+.el-tooltip__popper {
+  color: #333!important;
+  background-color: #fff!important;
+  box-shadow: 0px 2px 16px 1px #e3e3e3!important;
+}
+@import "~element-ui/packages/theme-chalk/src/index";

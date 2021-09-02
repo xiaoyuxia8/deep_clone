@@ -1,0 +1,17 @@
+{
+  "upcUrl": "http://upc.g1.cunjk.com",
+  "ureportUrl": "http://ureport-crm.g1.cunjk.com",
+  "crmreport": "http://crm.g1.cunjk.com",
+  "advsearch": "http://advsearch.g1.cunjk.com",
+  "sysUrl": "http://mcjksys.g1.cunjk.com",
+  "sysUrl1": "http://mcjksys1.g1.cunjk.com",
+  "crmUreportService": "http://crmreport1.g1.cunjk.com",
+  "sformUrl": "http://sform.g1.cunjk.com",
+  "gateUrl": "http://cjk-gateway.g1.cunjk.com/sys",
+  "requestUrl": "http://gateway.g1.cunjk.com",
+  "sbillUrl": "http://sbill.g1.cunjk.com",
+  "suffererUrl": "http://sufferer.g1.cunjk.com",
+  "taskManagementUrl": "http://crm.g1.cunjk.com",
+  "membercardUrl": "http://membercard.g1.cunjk.com",
+  "qywxUrl": "http://qywx.g1.cunjk.com"
+}

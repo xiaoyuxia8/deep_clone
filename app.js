@@ -1,18 +1,11 @@
-// module.exports = deepClone = function(obj){
-//     let result = Array.isArray(obj) ? [] : {};
-//     if (obj && typeof obj === "object") {
-//       for (let key in obj) {
-//         if (obj[key] && typeof obj[key] === "object") {
-//           result[key] = deepClone(obj[key]); //如果对象的属性值为object的时候，递归调用deepClone,即在吧某个值对象复制一份到新的对象的对应值中。
-//         } else {
-//           result[key] = obj[key]; //如果对象的属性值不为object的时候，直接复制参数对象的每一个键值到新的对象对应的键值对中。
-//         }
-//       }
-//       return result;
-//     }
-//     return obj;
-//   }
-const my = function(){
-    return '你好啊,我的朋友3'
+import Main from './src/components/Main'
+ 
+// 这一步判断window.Vue是否存在，因为直接引用vue.min.js， 它会把Vue绑到Window上，我们直接引用打包好的js才能正常跑起来。
+if (typeof window !== 'undefined' && window.Vue) {
+window.Vue.component('yyl-npm-practice', Main)
 }
-module.exports = my
+//这样就可以使用Vue.use进行全局安装了。
+Main.install = function(Vue){
+Vue.component(Main.name, Main)
+}
+export default Main

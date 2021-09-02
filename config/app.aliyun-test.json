@@ -1,0 +1,17 @@
+{
+  "ureportUrl": "https://tui-crm-report.cunjk.com",
+  "crmreport": "https://tcrm-service.cunjk.com",
+  "advsearch": "https://tservice-advsearch.cunjk.com",
+  "upcUrl": "https://tui-upc.cunjk.com",
+  "sysUrl": "https://tmcjksys.cunjk.com",
+  "sysUrl1": "https://tmcjksys-igt.cunjk.com",
+  "crmUreportService": "https://tcrm-report.cunjk.com",
+  "sformUrl": "https://tsform.cunjk.com",
+  "gateUrl": "https://tgateway.cunjk.com/sys",
+  "requestUrl": "https://tgateway.cunjk.com",
+  "sbillUrl": "https://tsbill.cunjk.com",
+  "suffererUrl": "https://tsufferer.cunjk.com",
+  "membercardUrl": "https://tmembercard.cunjk.com",
+  "spersonal": "https://tspersonal.cunjk.com",
+  "qywxUrl": "https://tqywx.cunjk.com"
+}

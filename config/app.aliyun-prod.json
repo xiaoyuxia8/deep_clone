@@ -1,0 +1,17 @@
+{
+  "ureportUrl": "https://uicrm-report.cunjk.com",
+  "crmreport": "https://service-crm.cunjk.com",
+  "advsearch": "https://service.advsearch.cunjk.com",
+  "upcUrl": "https://ubill.cunjk.com",
+  "sysUrl": "https://sys.cunjk.com",
+  "sysUrl1": "https://sysigt.cunjk.com",
+  "crmUreportService": "https://service-crm-report.cunjk.com",
+  "sformUrl": "https://sform.cunjk.com",
+  "gateUrl": "https://gate.cunjk.com/sys",
+  "requestUrl": "https://gateway.cunjk.com",
+  "sbillUrl": "https://sbill.cunjk.com",
+  "suffererUrl": "https://sufferer.cunjk.com",
+  "membercardUrl": "https://membercard.cunjk.com",
+  "spersonal": "https://spersonal.cunjk.com",
+  "qywxUrl": "https://qywx.cunjk.com"
+}
