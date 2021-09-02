@@ -1,6 +1,6 @@
 {
     "name": "xyx_deep_clone",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "deep clone",
     "main": "index.js",
     "scripts": {

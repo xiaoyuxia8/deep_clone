@@ -80,8 +80,8 @@ module.exports = {
     // output:{
     //   path:path.resolve(__dirname,'./dist'),
     //   publicPath:'/dist/',
-    //   filename:'yyl-npm-practice.js',
-    //   library:'yyl-npm-practice',//使用require时的模块名
+    //   filename:'xyx-form.js',
+    //   library:'xyx-form',//使用require时的模块名
     //   libraryTarget:'umd', //指定输出格式
     //   umNamedDefine:true //  umd 构建中的模块命名  否则使用匿名 define
     // },
@@ -92,8 +92,8 @@ module.exports = {
         config.entry = './src/main.js'
       }
       // config.output = {
-      //   filename:'yyl-npm-practice.js',
-      //   library:'yyl-npm-practice',//使用require时的模块名
+      //   filename:'xyx-form.js',
+      //   library:'xyx-form',//使用require时的模块名
       //   libraryTarget:'umd', //指定输出格式
       //   umNamedDefine:true //  umd 构建中的模块命名  否则使用匿名 define
       // }

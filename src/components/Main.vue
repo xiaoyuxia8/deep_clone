@@ -15,7 +15,7 @@
 
 <script>
   export default {
-    name: 'yyl-npm-practice',
+    name: 'xyx-form',
     components: {},
     props: [],
     data() {
